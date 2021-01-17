@@ -26,3 +26,16 @@
     height: 30px !important;
     width: 30px !important;
 }
+
+@media only screen and (max-width:500px) {
+    .videoCard{
+        width: 400px;
+    }
+    .videoCard__info{
+        padding-left: 30px;
+    }
+    .videoCard__thumbnail{
+        height: 200px;
+        width: 400px;
+    }
+}
